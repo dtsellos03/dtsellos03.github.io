@@ -1,0 +1,79 @@
+.navbar {
+  margin-right: 10px; }
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 15px; }
+
+.tech {
+  font-style: italic; }
+
+.button-special {
+  color: #FFF;
+  background-color: #33f056;
+  border-color: #33f056; }
+
+.button-special:hover {
+  color: #FFF;
+  background-color: #1edb41;
+  border-color: #1edb41; }
+
+.button-special2 {
+  color: #FFF;
+  background-color: #3af964;
+  border-color: #3af964; }
+
+.button-special2:hover {
+  color: #FFF;
+  background-color: #22ee4a;
+  border-color: #22ee4a; }
+
+.button-special3 {
+  color: #FFF;
+  background-color: #50fe8b;
+  border-color: #50fe8b; }
+
+.button-special3:hover {
+  color: #FFF;
+  background-color: #2ffb67;
+  border-color: #2ffb67; }
+
+.button-special4 {
+  color: #FFF;
+  background-color: #d6f033;
+  border-color: #d6f033; }
+
+.button-special4:hover {
+  color: #FFF;
+  background-color: #c1db1e;
+  border-color: #c1db1e; }
+
+.button-special5 {
+  color: #FFF;
+  background-color: #d8f93a;
+  border-color: #d8f93a; }
+
+.button-special5:hover {
+  color: #FFF;
+  background-color: #d0ee22;
+  border-color: #d0ee22; }
+
+.button-special6 {
+  color: #FFF;
+  background-color: #ccfe50;
+  border-color: #ccfe50; }
+
+.button-special6:hover {
+  color: #FFF;
+  background-color: #cdfb2f;
+  border-color: #cdfb2f; }
+
+.art-desc {
+  margin-top: 20px;
+  text-align: center; }
+
+/*# sourceMappingURL=styles.scss.css.map */
