@@ -1,9 +1,20 @@
 $btn1: #33f056;
-$btn2: #FFF;
-$btn3: #FFF;
-$btn4: #FFF;
-$btn5: #FFF;
-$btn6: #FFF;
+$btn2: #71f033;
+$btn3: #b8f033;
+
+$btn1-h: darken($btn1, 10);
+$btn1-l: lighten($btn1, 5);
+$btn1-lh: $btn1;
+
+$btn2-h: darken($btn2, 10);
+$btn2-l: lighten($btn2, 5);
+$btn2-lh: $btn2;
+
+
+$btn3-h: darken($btn3, 10);
+$btn3-l: lighten($btn3, 5);
+$btn3-lh: $btn3;
+
 
 @mixin button-color($color) {
     color: #FFF;
@@ -39,69 +50,47 @@ img {
 }
 
 .button-special:hover {
-    color: #FFF;
-    background-color: #1edb41;
-    border-color: #1edb41;
+   @include button-color($color: $btn1-h);
 }
 
 .button-special2 {
-    color: #FFF;
-    background-color: #3af964;
-    border-color: #3af964;
+   @include button-color($color: $btn1-l);
 }
 
 .button-special2:hover {
-    color: #FFF;
-    background-color: #22ee4a;
-    border-color: #22ee4a;
+   @include button-color($color: $btn1);
 }
 
 .button-special3 {
-    color: #FFF;
-    background-color: #50fe8b;
-    border-color: #50fe8b;
+   @include button-color($color: $btn2);
 }
 
 .button-special3:hover {
-    color: #FFF;
-    background-color: #2ffb67;
-    border-color: #2ffb67;
+   @include button-color($color: $btn2-h);
 }
 
 .button-special4 {
-    color: #FFF;
-    background-color: #d6f033;
-    border-color: #d6f033;
+   @include button-color($color: $btn2-l);
 }
 
 .button-special4:hover {
-    color: #FFF;
-    background-color: #c1db1e;
-    border-color: #c1db1e;
+   @include button-color($color: $btn2);
 }
 
 .button-special5 {
-    color: #FFF;
-    background-color: #d8f93a;
-    border-color: #d8f93a;
+   @include button-color($color: $btn3);
 }
 
 .button-special5:hover {
-    color: #FFF;
-    background-color: #d0ee22;
-    border-color: #d0ee22;
+   @include button-color($color: $btn3-h);
 }
 
 .button-special6 {
-    color: #FFF;
-    background-color: #ccfe50;
-    border-color: #ccfe50;
+   @include button-color($color: $btn3-l);
 }
 
 .button-special6:hover {
-    color: #FFF;
-    background-color: #cdfb2f;
-    border-color: #cdfb2f;
+   @include button-color($color: $btn3);
 }
 
 .art-desc {
