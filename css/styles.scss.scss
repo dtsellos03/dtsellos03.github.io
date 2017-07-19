@@ -1,6 +1,7 @@
 $btn1: #33f056;
 $btn2: #71f033;
 $btn3: #b8f033;
+$btn4: #33f099;
 
 $btn1-h: darken($btn1, 10);
 $btn1-l: lighten($btn1, 5);
@@ -14,6 +15,10 @@ $btn2-lh: $btn2;
 $btn3-h: darken($btn3, 10);
 $btn3-l: lighten($btn3, 5);
 $btn3-lh: $btn3;
+
+$btn4-h: darken($btn4, 10);
+$btn4-l: lighten($btn4, 5);
+$btn4-lh: $btn4;
 
 
 @mixin button-color($color) {
@@ -91,6 +96,22 @@ img {
 
 .button-special6:hover {
    @include button-color($color: $btn3);
+}
+
+.button-special7 {
+   @include button-color($color: $btn4);
+}
+
+.button-special7:hover {
+   @include button-color($color: $btn4-h);
+}
+
+.button-special8 {
+   @include button-color($color: $btn4-l);
+}
+
+.button-special8:hover {
+   @include button-color($color: $btn4);
 }
 
 .art-desc {
