@@ -1,0 +1,99 @@
+.navbar {
+  margin-right: 10px; }
+
+img {
+  display: block;
+  width: 400px;
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 15px; }
+
+.tech {
+  font-style: italic; }
+
+.button-special {
+  color: #FFF;
+  background-color: #33f056;
+  border-color: #33f056; }
+
+.button-special:hover {
+  color: #FFF;
+  background-color: #10e037;
+  border-color: #10e037; }
+
+.button-special2 {
+  color: #FFF;
+  background-color: #4bf26a;
+  border-color: #4bf26a; }
+
+.button-special2:hover {
+  color: #FFF;
+  background-color: #33f056;
+  border-color: #33f056; }
+
+.button-special3 {
+  color: #FFF;
+  background-color: #71f033;
+  border-color: #71f033; }
+
+.button-special3:hover {
+  color: #FFF;
+  background-color: #54e010;
+  border-color: #54e010; }
+
+.button-special4 {
+  color: #FFF;
+  background-color: #82f24b;
+  border-color: #82f24b; }
+
+.button-special4:hover {
+  color: #FFF;
+  background-color: #71f033;
+  border-color: #71f033; }
+
+.button-special5 {
+  color: #FFF;
+  background-color: #b8f033;
+  border-color: #b8f033; }
+
+.button-special5:hover {
+  color: #FFF;
+  background-color: #a2e010;
+  border-color: #a2e010; }
+
+.button-special6 {
+  color: #FFF;
+  background-color: #c0f24b;
+  border-color: #c0f24b; }
+
+.button-special6:hover {
+  color: #FFF;
+  background-color: #b8f033;
+  border-color: #b8f033; }
+
+.button-special7 {
+  color: #FFF;
+  background-color: #33f099;
+  border-color: #33f099; }
+
+.button-special7:hover {
+  color: #FFF;
+  background-color: #10e080;
+  border-color: #10e080; }
+
+.button-special8 {
+  color: #FFF;
+  background-color: #4bf2a5;
+  border-color: #4bf2a5; }
+
+.button-special8:hover {
+  color: #FFF;
+  background-color: #33f099;
+  border-color: #33f099; }
+
+.art-desc {
+  margin-top: 20px;
+  text-align: center; }
+
+/*# sourceMappingURL=styles.scss.css.map */
