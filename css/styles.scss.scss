@@ -1,30 +1,20 @@
-$btn1: #33f056;
-$btn2: #71f033;
-$btn3: #b8f033;
-$btn4: #33f099;
+$btn1: #effdfa;
+$btn2: #f2fdcd;
+$btn3: #fdfacd;
+$btn4: #ecddfe;
 
 $btn1-h: darken($btn1, 10);
-$btn1-l: lighten($btn1, 5);
-$btn1-lh: $btn1;
 
 $btn2-h: darken($btn2, 10);
-$btn2-l: lighten($btn2, 5);
-$btn2-lh: $btn2;
-
 
 $btn3-h: darken($btn3, 10);
-$btn3-l: lighten($btn3, 5);
-$btn3-lh: $btn3;
 
 $btn4-h: darken($btn4, 10);
-$btn4-l: lighten($btn4, 5);
-$btn4-lh: $btn4;
+
 
 
 @mixin button-color($color) {
-    color: #FFF;
     background-color: $color;
-    border-color: $color;
 }
 
 
@@ -59,60 +49,29 @@ img {
 }
 
 .button-special2 {
-   @include button-color($color: $btn1-l);
+   @include button-color($color: $btn2);
 }
 
 .button-special2:hover {
-   @include button-color($color: $btn1);
-}
-
-.button-special3 {
-   @include button-color($color: $btn2);
-}
-
-.button-special3:hover {
    @include button-color($color: $btn2-h);
 }
 
-.button-special4 {
-   @include button-color($color: $btn2-l);
-}
-
-.button-special4:hover {
-   @include button-color($color: $btn2);
-}
-
-.button-special5 {
+.button-special3 {
    @include button-color($color: $btn3);
 }
 
-.button-special5:hover {
+.button-special3:hover {
    @include button-color($color: $btn3-h);
 }
 
-.button-special6 {
-   @include button-color($color: $btn3-l);
-}
-
-.button-special6:hover {
-   @include button-color($color: $btn3);
-}
-
-.button-special7 {
+.button-special4 {
    @include button-color($color: $btn4);
 }
 
-.button-special7:hover {
+.button-special4:hover {
    @include button-color($color: $btn4-h);
 }
 
-.button-special8 {
-   @include button-color($color: $btn4-l);
-}
-
-.button-special8:hover {
-   @include button-color($color: $btn4);
-}
 
 .art-desc {
     margin-top: 20px;
