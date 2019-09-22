@@ -1,7 +1,10 @@
 $btn1: #effdfa;
 $btn2: #f2fdcd;
 $btn3: #fdfacd;
-$btn4: #ecddfe;
+$btn4: #f1edff;
+$btn5: #fef7d5;
+$btn6: #fee7e1;
+$btn7: #eafedd;
 
 $btn1-h: darken($btn1, 10);
 
@@ -10,6 +13,12 @@ $btn2-h: darken($btn2, 10);
 $btn3-h: darken($btn3, 10);
 
 $btn4-h: darken($btn4, 10);
+
+$btn5-h: darken($btn5, 10);
+
+$btn6-h: darken($btn6, 10);
+
+$btn7-h: darken($btn7, 10);
 
 
 
@@ -70,6 +79,30 @@ img {
 
 .button-special4:hover {
    @include button-color($color: $btn4-h);
+}
+
+.button-special5 {
+  @include button-color($color: $btn5);
+}
+
+.button-special5:hover {
+  @include button-color($color: $btn5-h);
+}
+
+.button-special6 {
+  @include button-color($color: $btn6);
+}
+
+.button-special6:hover {
+  @include button-color($color: $btn6-h);
+}
+
+.button-special7 {
+  @include button-color($color: $btn7);
+}
+
+.button-special7:hover {
+  @include button-color($color: $btn7-h);
 }
 
 

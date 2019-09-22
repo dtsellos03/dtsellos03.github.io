@@ -1,43 +1,60 @@
 .navbar {
-  margin-right: 10px; }
-
+  margin-right: 10px;
+}
 img {
   display: block;
   width: 400px;
   height: auto;
   max-width: 400px;
   margin: 0 auto;
-  border-radius: 15px; }
-
+  border-radius: 15px;
+}
 .tech {
-  font-style: italic; }
-
+  font-style: italic;
+}
 .button-special {
-  background-color: #effdfa; }
-
+  background-color: #effdfa;
+}
 .button-special:hover {
-  background-color: #c2f7ec; }
-
+  background-color: #c2f7ec;
+}
 .button-special2 {
-  background-color: #f2fdcd; }
-
+  background-color: #f2fdcd;
+}
 .button-special2:hover {
-  background-color: #e5fb9c; }
-
+  background-color: #e5fb9c;
+}
 .button-special3 {
-  background-color: #fdfacd; }
-
+  background-color: #fdfacd;
+}
 .button-special3:hover {
-  background-color: #fbf59c; }
-
+  background-color: #fbf59c;
+}
 .button-special4 {
-  background-color: #ecddfe; }
-
+  background-color: #f1edff;
+}
 .button-special4:hover {
-  background-color: #d0abfd; }
-
+  background-color: #c9baff;
+}
+.button-special5 {
+  background-color: #fef7d5;
+}
+.button-special5:hover {
+  background-color: #fdeea3;
+}
+.button-special6 {
+  background-color: #fee7e1;
+}
+.button-special6:hover {
+  background-color: #fcc0b0;
+}
+.button-special7 {
+  background-color: #eafedd;
+}
+.button-special7:hover {
+  background-color: #cbfdab;
+}
 .art-desc {
   margin-top: 20px;
-  text-align: center; }
-
-/*# sourceMappingURL=styles.scss.css.map */
+  text-align: center;
+}
