@@ -23,7 +23,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-    <link rel="stylesheet" href="css/styles.scss.css">
+  <link rel="stylesheet" href="css/styles.scss.css">
+  <link rel="stylesheet" type="text/css" href="css/glider.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -39,26 +40,42 @@
 
 </script>
 
+<script src="js/glider.min.js"></script>
+
+<script>
+window.addEventListener('load', function(){
+  new Glider(document.querySelector('.glider'), {
+  slidesToShow: 1,
+  dots: '.dots',
+  draggable: true,
+  arrows: {
+    prev: '.glider-prev',
+    next: '.glider-next'
+  }
+});
+})
+</script>
+
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container">
+  <div class="row">
       <div class="two column" style="margin-top: 5%">
-        
-        <h6  style="margin-left: 1%" >Democritos Tsellos</h6>
-        
-  <a class=" button navbar button-primary" href="index.html">HOME</a>
-                <a class="button navbar " href="portfolio.html">PORTFOLIO</a>
-                <a class="button  navbar " href="skills.html">SKILLS</a>
-                <a class="button navbar" href="about.html">ABOUT</a>
-                <a class="button navbar " href="contact.html">CONTACT</a>
-       
-    <br><br>
-    </div>
-    </div>
+
+          <h6 style="margin-left: 1%">Democritos Tsellos</h6>
+
+          <a class=" button navbar button-primary" href="index.html">HOME</a>
+          <a class="button navbar" href="projects.html">PROJECTS</a>
+          <a class="button navbar " href="contact.html">CONTACT</a>
+
+          <br><br>
+      </div>
+
+
+  </div>
    
       <div class="row">
       <div class="five columns"> 
@@ -67,9 +84,10 @@
   <div class="seven columns"> 
  <h4>Hello there!</h4>
 <p>
-I'm Democritos, and I primarily work with Node.js.
- Check out my  <a href="portfolio.html">portfolio</a>, learn more <a href="about.html">about</a> me,  or get in touch at dtsellos03@gmail.com .</p>
+I'm Democritos, and I'm a full stack software engineer.
+ Check out my  <a href="projects.html">personal projects</a> or get in touch at dtsellos03@gmail.com .</p>
 </p>
+
     </div>
     
         
